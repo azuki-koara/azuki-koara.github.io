@@ -1,0 +1,9 @@
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+    .top-title h1{
+        font-size:40px;
+    }
+    .otter{
+    width:100%;
+}
+}
