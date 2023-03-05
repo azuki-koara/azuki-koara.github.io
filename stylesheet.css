@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Meiryo UI", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .clear {
+    clear: left;
+  }
+  header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(23, 162, 209, 0.9);
+    position :fixed;
+    top: 0;
+    z-index:10;
+  }
+
+  .header-logo{
+    height:80%;
+    margin:10px;
+    float:left;
+  }  
+
+  .top{
+    padding:30px 0 10px 0;
+    background-image:url(タイトル背景.PNG);
+    background-size:100% 100%;
+    letter-spacing: 10px;
+    font-family:"nikukyu";
+    text-align:center;
+  }
+  .top-title{
+    width: 100%;
+    padding: 0 15px;
+    margin: 50px 0 30px 0;
+  }
+  .top-title h1{
+    color:#83624A;
+    font-size:100px;
+    margin: 0 auto;
+
+  }
+  .main-container{
+    background-size:100% 100%;
+    background-image:url(水中イラスト.png);
+    padding:80px 20px 20px 20px;
+    width:100%;
+  }
+  .otter{
+    float:left;
+    width:33%;
+    text-align:center;
+    padding-bottom:20px;
+  }
+  .otter img{
+    width:80%;
+  }
+  .otter p{
+    width:60%;
+    display:inline-block;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:20px;
+  }
+  .place{
+    padding:80px 20px 0 20px;
+  }
+  .place h1{
+    color:#d4ac78;
+    font-size:70px;  
+    font-family:"nikukyu";
+  }
+  .place-container{
+    padding: 0 20px;
+    font-size:20px;
+  }
+  .place-container a{
+    border:2px solid grey;
+    border-radius:10px;
+    padding:10px;
+    background-color:#507ace;
+    font-weight:bold;
+    color:white;
+  }
+  .place-container li{
+    list-style:none;
+    line-height:40px;
+  }
