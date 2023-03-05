@@ -5,5 +5,9 @@
     }
     .otter{
     width:100%;
-}
+    }
+    .place-container{
+        padding: 0 5px;
+        font-size:10px;
+    }
 }
