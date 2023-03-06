@@ -82,8 +82,8 @@
     padding: 0 20px;
     font-size:20px;
   }
-  .place-container a{
-    border:2px solid grey;
+  .place-name{
+    border:1px solid grey;
     border-radius:10px;
     padding:10px;
     background-color:#507ace;
